@@ -11,6 +11,6 @@ class HelloWorldController {
     // Use base mapping as the mapping
     @GetMapping
     fun helloWorld(): String {
-        return "Hello, this is a REST endppoint"
+        return "Hello, this is a REST endpoint"
     }
 }
